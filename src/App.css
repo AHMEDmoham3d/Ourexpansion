@@ -10,6 +10,33 @@ header {
   margin-bottom: 20px;
 }
 
+.data-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.data-controls button,
+.import-button {
+  padding: 8px 15px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.data-controls button:hover,
+.import-button:hover {
+  background-color: #0b7dda;
+}
+
+.import-button {
+  display: inline-block;
+  cursor: pointer;
+}
+
 .main-content {
   display: flex;
   gap: 20px;
